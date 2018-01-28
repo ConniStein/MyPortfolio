@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', serif;
+  font-family: 'Dosis', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
@@ -35,7 +35,7 @@ h2 {
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Saira Extra Condensed', serif;
+  font-family: 'Dosis', sans-serif;
   font-size: 1.35rem;
 }
 
@@ -44,7 +44,8 @@ h2 {
 }
 
 .list-social-icons a:hover {
-  color: #BD5D38;
+  color: #ED5358;
+  transition: .3s;
 }
 
 .list-social-icons a .fa-lg {
@@ -56,7 +57,8 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #ED5358;
+  transition: .3s;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -64,6 +66,39 @@ h2 {
   text-transform: uppercase;
 }
 
+.list-portfolio a {
+  color: #495057;
+}
+
+.list-portfolio a:hover {
+  color: #86C61D;
+  transition: .3s;
+}
+
+.list-portfolio a .fa-lg2 {
+  font-size: 9.75rem;
+}
+.portfolio-thumb{
+  border-radius: 50%;
+  width: 15.5rem;
+  height: 15.5rem;
+  top: 32px;
+  left: 32px;
+}
+.fa-check{
+  color: #13AFA8;
+}
+.btn-resume{
+  background-color: #ffffff;
+  border: 2px solid #86C61D;
+  border-radius: 5rem;
+  padding: .5rem 3rem;
+  font-size: 1.3rem;
+}
+.btn-resume:hover{
+  border:2px solid #ED5358;
+  transition: .3s;
+}
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;
@@ -131,17 +166,18 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #13AFA8 !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #13AFA8 !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #86C61D;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #ED5358;
+  transition: .3s;
 }
