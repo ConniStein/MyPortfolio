@@ -31,7 +31,18 @@ h1 {
 h2 {
   font-size: 3.5rem;
 }
-
+.purple{
+  color: #6A4C93;
+}
+.blue{
+  color: #13AFA8;
+}
+.pink{
+  color: #ED5358;
+}
+.green{
+  color: #86C61D;
+}
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
@@ -56,7 +67,7 @@ h2 {
   font-size: 3rem;
 }
 
-.list-icons .list-inline-item i:hover {
+.list-icons .list-inline-item i {
   color: #ED5358;
   transition: .3s;
 }
@@ -65,39 +76,59 @@ h2 {
   font-weight: 600;
   text-transform: uppercase;
 }
-
-.list-portfolio a {
-  color: #495057;
-}
-
-.list-portfolio a:hover {
-  color: #86C61D;
-  transition: .3s;
-}
-
-.list-portfolio a .fa-lg2 {
-  font-size: 9.75rem;
-}
-.portfolio-thumb{
-  border-radius: 50%;
-  width: 15.5rem;
-  height: 15.5rem;
-  top: 32px;
-  left: 32px;
-}
 .fa-check{
   color: #13AFA8;
 }
 .btn-resume{
   background-color: #ffffff;
-  border: 2px solid #86C61D;
+  border: 2px solid #6A4C93;
   border-radius: 5rem;
   padding: .5rem 3rem;
   font-size: 1.3rem;
+  color: #6A4C93;
 }
 .btn-resume:hover{
-  border:2px solid #ED5358;
+  border:2px solid #13AFA8;
   transition: .3s;
+  color: #13AFA8;
+}
+.port-box{
+  position: relative;
+  width: 25rem;
+  height: 14rem;
+  border-radius: 5rem;
+  margin: 2rem 3rem 2rem 0rem;
+}
+.middle{
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: .3s;
+}
+.middle:hover{
+  opacity: 1;
+  border:5px solid #ED5358;
+  border-radius: 5rem;
+}
+.middle>a>i{
+  display: block;
+  text-align: center;
+  padding-top: 27%;
+  font-size: 2rem;
+}
+.portfolio-thumb{
+  width: 100%;
+  height: 100%;
+  border-radius: 5rem;
+}
+.list-inline-item>p{
+  width: 90%;
+}
+.no-l-padding{
+  padding-left: 0px;
 }
 @media (min-width: 992px) {
   #sideNav {
