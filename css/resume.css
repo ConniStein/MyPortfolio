@@ -188,6 +188,19 @@ section.resume-section .resume-item .resume-date {
     min-width: 18rem;
   }
 }
+@media (max-width: 750px){
+  h1{
+    font-size: 4rem;
+  }
+  .port-box{
+    width: 20rem;
+    height: 11rem;
+    margin:2rem 0rem;
+  }
+  .mail{
+    font-size: 1.3rem;
+  }
+}
 
 @media (min-width: 992px) {
   section.resume-section {
